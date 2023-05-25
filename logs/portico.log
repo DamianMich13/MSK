@@ -1,0 +1,78 @@
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=ExampleFederation
+ERROR [main] portico.lrc: federation exists: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at hla13.hla13.Example13Federate.runFederate(Example13Federate.java:185)
+	at hla13.hla13.Example13Federate.main(Example13Federate.java:564)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [B]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [B]: label already registered
+ERROR [main] portico.lrc.jgroups: FAILURE destoryFederation [ExampleFederation]: doesn't exist
+ERROR [main] portico.lrc: doesn't exist: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionDoesNotExist: doesn't exist: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:393)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at hla13.hla13.Example13Federate.runFederate(Example13Federate.java:299)
+	at hla13.hla13.Example13Federate.main(Example13Federate.java:564)
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=ExampleFederation
+ERROR [main] portico.lrc: federation exists: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at hla13.hla13.Example13Federate.runFederate(Example13Federate.java:185)
+	at hla13.hla13.Example13Federate.main(Example13Federate.java:564)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [B]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [B]: label already registered
+ERROR [main] portico.lrc.jgroups: FAILURE destoryFederation [ExampleFederation]: doesn't exist
+ERROR [main] portico.lrc: doesn't exist: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionDoesNotExist: doesn't exist: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:393)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at hla13.hla13.Example13Federate.runFederate(Example13Federate.java:299)
+	at hla13.hla13.Example13Federate.main(Example13Federate.java:564)
+ERROR [main] portico.lrc.jgroups: FAILURE createFederation: already exists, name=ExampleFederation
+ERROR [main] portico.lrc: federation exists: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionAlreadyExists: federation exists: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.createFederation(FederationChannel.java:268)
+	at org.portico.bindings.jgroups.JGroupsConnection.createFederation(JGroupsConnection.java:232)
+	at org.portico.lrc.services.federation.handlers.outgoing.CreateFederationHandler.process(CreateFederationHandler.java:79)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.createFederationExecution(Rti13Ambassador.java:194)
+	at hla13.hla13.Example13Federate.runFederate(Example13Federate.java:185)
+	at hla13.hla13.Example13Federate.main(Example13Federate.java:564)
+ERROR [main] portico.lrc: FAILURE Regiser sync point [ReadyToRun] by [A]: already registered
+ERROR [main] portico.lrc: FAILURE Register sync point [ReadyToRun] by [A]: label already registered
+ERROR [main] portico.lrc.jgroups: FAILURE destoryFederation [ExampleFederation]: doesn't exist
+ERROR [main] portico.lrc: doesn't exist: ExampleFederation
+org.portico.lrc.compat.JFederationExecutionDoesNotExist: doesn't exist: ExampleFederation
+	at org.portico.bindings.jgroups.channel.FederationChannel.destroyFederation(FederationChannel.java:393)
+	at org.portico.bindings.jgroups.JGroupsConnection.destroyFederation(JGroupsConnection.java:322)
+	at org.portico.lrc.services.federation.handlers.outgoing.DestroyFederationHandler.process(DestroyFederationHandler.java:57)
+	at org.portico.utils.messaging.MessageSink.process(MessageSink.java:187)
+	at org.portico.impl.hla13.Impl13Helper.processMessage(Impl13Helper.java:123)
+	at org.portico.impl.hla13.Rti13Ambassador.processMessage(Rti13Ambassador.java:5822)
+	at org.portico.impl.hla13.Rti13Ambassador.destroyFederationExecution(Rti13Ambassador.java:257)
+	at hla13.hla13.Example13Federate.runFederate(Example13Federate.java:299)
+	at hla13.hla13.Example13Federate.main(Example13Federate.java:564)
